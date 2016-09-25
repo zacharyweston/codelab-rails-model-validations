@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CodelabRailsDatabaseIntro</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/books">Books</a></li>
+</ul>
+
+</body>
+</html>
