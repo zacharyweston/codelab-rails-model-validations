@@ -24,6 +24,6 @@
     <%= f.check_box :on_shelf %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Save', data: { confirm: 'Are you sure your book is on shelf?' } %>
   </div>
 <% end %>
